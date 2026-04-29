@@ -36,7 +36,7 @@
 
   /* --- Reveal on scroll --- */
   const revealEls = document.querySelectorAll(
-    '.section-head, .card, .sector, .rd-content, .rd-figure, .cta'
+    '.section-head, .card, .sector, .rd-header, .rd-figure, .rd-list, .cta'
   );
   revealEls.forEach(el => el.classList.add('reveal'));
 
